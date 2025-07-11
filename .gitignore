@@ -1,0 +1,23 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment folder
+venv/
+
+# dotenv environment variables file (if you use one)
+.env
+
+# Flask instance folder (if you create one)
+instance/
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Logs and database files (assuming your database files are local files)
+*.log
+database/
+
+# Ignore any compiled Python files you might have missed
+*.pyc
