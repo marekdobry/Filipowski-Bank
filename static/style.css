@@ -1,0 +1,140 @@
+/* General page styling */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0a0f1c; /* dark navy background */
+    color: #ffffff;
+}
+
+/* Centered form box */
+.form-container {
+    width: 420px;
+    margin: 40px auto;
+    padding: 35px 45px;
+    background-color: #111827; /* dark gray-blue */
+    border-radius: 14px;
+    box-shadow: 0 0 15px rgba(0, 128, 255, 0.2);
+}
+
+/* Header */
+.form-container h2 {
+    text-align: center;
+    color: #60a5fa;
+    margin-bottom: 25px;
+}
+
+/* Inputs */
+.form-container input,
+.form-container button,
+input[type="number"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.form-container input[type="email"],
+.form-container input[type="number"],
+.form-container input[type="password"] {
+    background-color: #1e293b;
+    color: white;
+}
+
+/* Submit Button */
+.form-container button,
+input[type="submit"] {
+    background-color: #3b82f6;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-container button:hover,
+input[type="submit"]:hover {
+    background-color: #2563eb;
+}
+
+/* Register or login links */
+.register-link,
+a {
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    color: #93c5fd;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Logout styles */
+.logout-button,
+.logout-form button {
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.logout-button:hover,
+.logout-form button:hover {
+    background-color: #c82333;
+}
+
+.logout-form {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Logo container */
+.logo-container {
+    width: 420px;
+    margin: 30px auto 20px;
+    text-align: center;
+}
+
+.logo-container img {
+    max-width: 200px;
+    height: auto;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #1e293b;
+    color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #334155;
+}
+
+th {
+    background-color: #0f172a;
+}
+
+/* Flash messages */
+.flash {
+    color: #f87171;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
